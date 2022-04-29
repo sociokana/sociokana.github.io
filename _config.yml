@@ -6,7 +6,7 @@ repository: sociokana/sociokana.github.io
 version: 2
 
 # Personal info
-name: Jihoon KIM 金 志勲
+name: Jihoon KIM
 title: Systems Engineer
 email: sociokana@gmail.com
 # email_title: Email (Email title override)
@@ -83,6 +83,31 @@ content:
         title: Hewlett Packard Enterprise
         sub_title: Systems Engineer
         caption: 2022.04 -
+        # link: Link to company (optional)
+        # quote: >
+          # Short description of the company (optional)
+        description: | # this will include new lines to allow paragraphs
+          Pointnext A&PS Delivery
+          - hoge
+          - hoge
+      - layout: left
+        title: SAP
+        sub_title: IT Consultant (Intern)
+        caption: 2022.04 -
+        # link: Link to company (optional)
+        # quote: >
+          # Short description of the company (optional)
+        description: | # this will include new lines to allow paragraphs
+          Pointnext A&PS Delivery
+          - hoge
+          - hoge
+  - title: Skills
+    layout: list
+    content:
+      - layout: left
+        title: Hewlett Packard Enterprise
+#        sub_title: Systems Engineer
+        caption: 2022.04 -
         link: Link to company (optional)
         # quote: >
           # Short description of the company (optional)
@@ -93,18 +118,18 @@ content:
   - title: Education
     layout: list
     content:
-      - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
-        quote: >
-          Short institution or course description (optional)
+      - layout: left
+        title: Hewlett Packard Enterprise
+#        sub_title: Systems Engineer
+        caption: 2022.04 -
+        link: Link to company (optional)
+        # quote: >
+          # Short description of the company (optional)
         description: | # this will include new lines to allow paragraphs
-          Description of qualification
-  - title: Skills
-    layout: list
-    content:
-      -
+          Pointnext A&PS Delivery
+          - hoge
+          - hoge
+
 
 
 # Footer
