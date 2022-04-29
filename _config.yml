@@ -83,7 +83,7 @@ content:
         border: weak
         title: Hewlett Packard Enterprise
         sub_title: Systems Engineer
-        caption: 2022.04 -
+        caption: 2022.04 - Current
         # link: Link to company (optional)
         # quote: >
           # Short description of the company (optional)
@@ -137,17 +137,25 @@ content:
     layout: list
     content:
       - layout: left
-        title: Hewlett Packard Enterprise
+        title: Korea National Open University
 #        sub_title: Systems Engineer
-        caption: 2022.04 -
-        link: Link to company (optional)
+        caption: 2022.08 - Current
+        # link: Link to company (optional)
         # quote: >
           # Short description of the company (optional)
         description: | # this will include new lines to allow paragraphs
-          Pointnext A&PS Delivery
-          - hoge
-          - hoge
-
+          B.A. in Computer Science (2022.08 - Current)
+      - layout: left
+        title: The University of Tokyo
+#        sub_title: Systems Engineer
+        caption: 2011.04 - Current
+        # link: Link to company (optional)
+        # quote: >
+          # Short description of the company (optional)
+        description: | # this will include new lines to allow paragraphs
+          Ph.D. Student in Sociology (2018.04 - Current)
+          M.A. in Sociology (2016.04 - 2018.03)
+          B.A. in Sociology (2011.04 - 2016.03)
 
 
 # Footer
