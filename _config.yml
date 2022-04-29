@@ -1,5 +1,5 @@
 # Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+repository: sociokana/sociokana.github.io
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Content configuration version
@@ -14,6 +14,7 @@ email: sociokana@gmail.com
 # phone_title: Phone (Phone title override)
 website: https://socio-tech.net
 # website_title: Web (Website title override)
+Last Updated: April 30, 2022
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -84,7 +85,7 @@ content:
   - title: Experience
     layout: list
     content:
-      - layout: right
+      - layout: left
         title: Company name
         sub_title: Job title
         caption: Date Range (eg. November 2016 - present)
