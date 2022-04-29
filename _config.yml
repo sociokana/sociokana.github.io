@@ -100,14 +100,16 @@ content:
           # Short description of the company (optional)
         description: | # this will include new lines to allow paragraphs
           - hoge
+
+          
   - title: Skills
     layout: text
     content: |
       ## Programming Languages
       Python, C++, Java
 
-      ## hogehoge
-      Hoge
+      ## Core Infrastructure
+
 
 # - layout: left
         # title: Programming Languages
