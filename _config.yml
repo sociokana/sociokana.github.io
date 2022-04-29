@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Jihoon KIM
-title: Systems Engineer
+title: Last Updated: April 30, 2022
 email: sociokana@gmail.com
 # email_title: Email (Email title override)
 # phone: Your phone number (optional)
@@ -102,37 +102,36 @@ content:
           - hoge
   - title: Skills
     layout: text
-    content:
-      - layout: left
+    content: |
+      ## Programming Languages
+      Python, C++, Java
+
+      ## hogehoge
+      Hoge
+
+# - layout: left
         # title: Programming Languages
 #        sub_title: Systems Engineer
         # caption: 2022.04 -
         # link: Link to company (optional)
         # quote: >
           # Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          ## Programming Languages
-          Python, C++, Java
+        # description: | # this will include new lines to allow paragraphs
 
-          ## hogehoge
-          Hoge
 
   - title: Certifications
     layout: list
     content:
       - layout: left
-        # title: Programming Languages
+        title: VMware
 #        sub_title: Systems Engineer
         # caption: 2022.04 -
         # link: Link to company (optional)
         # quote: >
           # Short description of the company (optional)
         description: | # this will include new lines to allow paragraphs
-          ## VMware
           - VCP-NV 2022
-
-          ## hogehoge
-          Hoge
+          - VCP-DCV 2022
 
   - title: Education
     layout: list
