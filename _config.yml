@@ -81,6 +81,7 @@ content:
     content:
       - layout: left
         border: weak
+        title: Hewlett Packard Enterprise
         sub_title: Systems Engineer
         caption: 2022.04 -
         # link: Link to company (optional)
@@ -100,17 +101,39 @@ content:
         description: | # this will include new lines to allow paragraphs
           - hoge
   - title: Skills
-    layout: list
+    layout: text
     content:
       - layout: left
-        title: Programming Languages
+        # title: Programming Languages
 #        sub_title: Systems Engineer
         # caption: 2022.04 -
         # link: Link to company (optional)
         # quote: >
           # Short description of the company (optional)
         description: | # this will include new lines to allow paragraphs
-          Python | C++ | Java
+          ## Programming Languages
+          Python, C++, Java
+
+          ## hogehoge
+          Hoge
+
+  - title: Certifications
+    layout: list
+    content:
+      - layout: left
+        # title: Programming Languages
+#        sub_title: Systems Engineer
+        # caption: 2022.04 -
+        # link: Link to company (optional)
+        # quote: >
+          # Short description of the company (optional)
+        description: | # this will include new lines to allow paragraphs
+          ## VMware
+          - VCP-NV 2022
+
+          ## hogehoge
+          Hoge
+
   - title: Education
     layout: list
     content:
