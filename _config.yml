@@ -6,15 +6,15 @@ repository: sociokana/sociokana.github.io
 version: 2
 
 # Personal info
-name: Jihoon KIM
+name: Jihoon KIM 金 志勲
 title: Systems Engineer
 email: sociokana@gmail.com
 # email_title: Email (Email title override)
 # phone: Your phone number (optional)
 # phone_title: Phone (Phone title override)
 website: https://socio-tech.net
-# website_title: Web (Website title override)
-Last Updated: April 30, 2022
+website_title: Blog
+# Last Updated: April 30, 2022
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -35,10 +35,10 @@ linkedin_username: jhkim-linedin
 # googlescholar_username: D847cGsAAAAJ
 
 # Additional icon links
-additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
+# additional_links:
+# - title: Link name
+#   icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
