@@ -1,0 +1,221 @@
+# Site
+repository: sociokana/sociokana.github.io
+# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Jihoon KIM
+title: "Last Updated: April 30, 2022"
+email: sociokana@gmail.com
+# email_title: Email (Email title override)
+# phone: Your phone number (optional)
+# phone_title: Phone (Phone title override)
+website: https://socio-tech.net
+website_title: Blog
+# Last Updated: April 30, 2022
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+twitter_username:
+github_username:  sociokana
+#stackoverflow_username: "00000001"
+#dribbble_username: jekyll
+#facebook_username: jekyll
+#flickr_username: jekyll
+#instagram_username: jekyll
+linkedin_username: jhkim-linedin
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: jekyll
+# orcid_username: 0000-0000-0000-0000
+# googlescholar_username: D847cGsAAAAJ
+
+# Additional icon links
+# additional_links:
+# - title: Credly
+#   icon: fa-solid fa-certificate
+#   url: https://www.credly.com/users/jihoon-kim.86c3ce30
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+about_title: Summary
+about_profile_image: images/me.jpg
+about_content: | # this will include new lines to allow paragraphs
+  hogehoge
+
+content:
+  # - title: Projects # Title for the section
+  #   layout: list # Type of content section (list/text)
+  #   content:
+  #     - layout: left
+  #       border: weak  # Value of `weak` will display a weak border below this item. # Any
+  #                     # other value (or no value) means no border will be displayed
+  #       title: Project name
+  #       link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+  #       link_text: Link Text
+  #       additional_links:
+  #         - title:  Github page for project (eg. sproogen/modern-resume-theme)
+  #           icon: fab fa-github
+  #           url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+  #         - title:  Github page for project (eg. sproogen/modern-resume-theme)
+  #           icon: fab fa-github
+  #           url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+  #       quote: >
+  #         Short overview of the project (optional)
+  #       description: | # this will include new lines to allow paragraphs
+  #         Description about the work on/with the project
+  - title: Experience
+    layout: list
+    content:
+      - layout: left
+        border: weak
+        title: Hewlett Packard Enterprise
+        sub_title: Systems Engineer
+        caption: 2022.04 - Current
+        # link: Link to company (optional)
+        # quote: >
+          # Short description of the company (optional)
+        description: | # this will include new lines to allow paragraphs
+          Pointnext A&PS Delivery
+          - hoge
+          - hoge
+      - layout: left
+        title: SAP
+        sub_title: IT Consultant (Intern)
+        caption: 2021.11 - 2022.02
+        # link: Link to company (optional)
+        # quote: >
+          # Short description of the company (optional)
+        description: | # this will include new lines to allow paragraphs
+          SAP Student Training and Rotation (STAR) Program
+
+
+  - title: Skills
+    layout: text
+    content: |
+      Public Clouds
+      - Amazon Web Services (AWS) &emsp; \| &emsp; Microsoft Azure &emsp; \| &emsp; Google Cloud
+
+      Virtualization
+      - VMware vSphere &emsp; \| &emsp; VMware NSX-T
+
+      Operating Systems
+      - Microsoft Windows Server &emsp; \| &emsp; Linux
+
+
+  # - title: Skills
+  #   layout: list
+  #   content:
+  #     - layout: top-left
+  #       title: Core Infrastructure
+  #       description: | # this will include new lines to allow paragraphs
+  #         Public Clouds
+  #         - Amazon Web Services (AWS) &emsp; \| &emsp; Microsoft Azure &emsp; \| &emsp; Google Cloud
+  #
+  #         Virtualization
+  #         - VMware vSphere &emsp; \| &emsp; VMware NSX-T
+      # - layout: left
+      #   title: Public Clouds
+      #   description: | # this will include new lines to allow paragraphs
+      #     Amazon Web Services (AWS) &emsp; \| &emsp; Microsoft Azure &emsp; \| &emsp; Google Cloud
+
+# - layout: left
+        # title: Programming Languages
+#        sub_title: Systems Engineer
+        # caption: 2022.04 -
+        # link: Link to company (optional)
+        # quote: >
+          # Short description of the company (optional)
+        # description: | # this will include new lines to allow paragraphs
+
+  - title: Certifications
+    layout: text
+    content: |
+      VMware
+      - VCTA-NV 2021
+      - VCTA-DCV 2021
+
+      Cisco
+      - CCNA
+
+#   - title: Certifications
+#     layout: list
+#     content:
+#       - layout: left
+#         title: VMware
+# #        sub_title: Systems Engineer
+#         # caption: 2022.04 -
+#         # link: Link to company (optional)
+#         # quote: >
+#           # Short description of the company (optional)
+#         description: | # this will include new lines to allow paragraphs
+#           VCTA-NV 2021
+#
+#           VCTA-DCV 2021
+
+  - title: Education
+    layout: list
+    content:
+      - layout: left
+        title: Korea National Open University
+        sub_title: Korea
+        caption: 2022.08 - Current
+        # link: Link to company (optional)
+        # quote: >
+          # Short description of the company (optional)
+        description: | # this will include new lines to allow paragraphs
+          B.A. in Computer Science (2022.08 - Current)
+      - layout: left
+        title: The University of Tokyo
+        sub_title: Japan
+        caption: 2011.04 - Current
+        # link: Link to company (optional)
+        # quote: >
+          # Short description of the company (optional)
+        description: | # this will include new lines to allow paragraphs
+          Ph.D. Student in Sociology (2018.04 - Current)
+
+          M.A. in Sociology (2016.04 - 2018.03)
+
+          B.A. in Sociology (2011.04 - 2016.03)
+
+
+# Footer
+footer_show_references: false
+# references_title: References on request (Override references text)
+
+# Build settings
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]
